@@ -1,6 +1,6 @@
 # Add your requirements here
 tensorflow
-pandas
+pandas 
 dvc
 notebook
 numpy

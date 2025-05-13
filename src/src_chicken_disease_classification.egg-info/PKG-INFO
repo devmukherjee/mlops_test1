@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: src-chicken_disease_classification
+Version: 0.0.1
+Summary: A small python package for chicken disease classification
+Home-page: github.com/devmukherjee/mlops_test1
+Author: Dev Mukherjee
+Author-email: devmukherjeeindia@gmail.com
+Project-URL: Bug Tracker, github.com/devmukherjee/mlops_test1/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
