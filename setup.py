@@ -9,7 +9,7 @@ __version__ = "0.0.1"
 REPO_NAME = "mlops_test1"
 AUTHOR_USER_NAME = "devmukherjee"
 AUTHOR_NAME = "Dev Mukherjee"
-SRC_REPO = "src\chicken_disease_classification"
+SRC_REPO = "chicken_disease_classification"
 AUTHOR_EMAIL = "devmukherjeeindia@gmail.com"
 
 setuptools.setup(

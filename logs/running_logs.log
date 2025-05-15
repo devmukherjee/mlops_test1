@@ -1,0 +1,164 @@
+2025-05-13 22:43:02,370 - INFO - Logging has been set up successfully
+2025-05-14 22:36:14,516 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:41:51,609 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:42:03,594 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:43:07,123 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:45:44,406 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:48:19,410 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:49:25,359 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:55:32,115 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 22:59:09,457 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 23:00:21,971 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:00:21,971 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:00:21,971 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 23:01:10,048 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:01:10,048 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:01:10,048 - INFO - created directory at: artifacts
+2025-05-14 23:01:10,052 - INFO - created directory at: artifacts/data_ingestion
+2025-05-14 23:01:10,052 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 23:01:22,309 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:01:22,315 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:01:22,317 - INFO - created directory at: artifacts
+2025-05-14 23:01:22,318 - INFO - created directory at: artifacts/data_ingestion
+2025-05-14 23:01:22,319 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 23:03:27,582 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:03:27,584 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:03:27,586 - INFO - created directory at: artifacts
+2025-05-14 23:03:27,587 - INFO - created directory at: artifacts/data_ingestion
+2025-05-14 23:03:27,588 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-14 23:05:09,211 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:05:09,212 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:05:09,214 - INFO - created directory at: artifacts
+2025-05-14 23:05:09,216 - INFO - created directory at: artifacts/data_ingestion
+2025-05-14 23:05:12,057 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3E1F:499A1:0908:16A2:6824D44D
+Accept-Ranges: bytes
+Date: Wed, 14 May 2025 17:35:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4735-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747244109.126496,VS0,VE939
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6fd9a9252871be0c0d3c2d03109ab0fff4743fb2
+Expires: Wed, 14 May 2025 17:40:10 GMT
+Source-Age: 1
+
+
+2025-05-14 23:05:12,218 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-14 23:10:57,476 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:10:57,485 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:10:57,485 - INFO - created directory at: artifacts
+2025-05-14 23:10:57,485 - INFO - created directory at: artifacts/data_ingestion
+2025-05-14 23:10:57,491 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-14 23:10:57,630 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-14 23:11:43,528 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-14 23:11:43,528 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-14 23:11:43,528 - INFO - created directory at: artifacts
+2025-05-14 23:11:43,528 - INFO - created directory at: artifacts/data_ingestion
+2025-05-14 23:11:45,720 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: e:\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3E1F:499A1:0908:16A2:6824D44D
+Accept-Ranges: bytes
+Date: Wed, 14 May 2025 17:41:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4748-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747244503.485928,VS0,VE269
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c4cb05655684486d087b9065ba0221d0743b1262
+Expires: Wed, 14 May 2025 17:46:43 GMT
+Source-Age: 0
+
+
+2025-05-14 23:11:45,879 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-15 17:35:48,397 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-15 17:35:48,401 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-15 17:35:48,401 - INFO - created directory at: artifacts
+2025-05-15 17:35:48,401 - INFO - created directory at: artifacts/data_ingestion
+2025-05-15 17:35:53,143 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: e:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4AFD:1BA132:EF1F1:2803CA:6825D89D
+Accept-Ranges: bytes
+Date: Thu, 15 May 2025 12:05:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4730-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747310750.812743,VS0,VE901
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e42c74bd38b052e6a37370a6bb18c098bebf91a8
+Expires: Thu, 15 May 2025 12:10:50 GMT
+Source-Age: 1
+
+
+2025-05-15 17:35:53,328 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-15 18:00:41,632 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-15 18:00:41,634 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-15 18:00:41,634 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-15 18:00:41,636 - INFO - created directory at: artifacts
+2025-05-15 18:00:41,636 - INFO - created directory at: artifacts/data_ingestion
+2025-05-15 18:00:45,826 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4AFD:1BA132:EF1F1:2803CA:6825D89D
+Accept-Ranges: bytes
+Date: Thu, 15 May 2025 12:30:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4747-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747312243.815788,VS0,VE353
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c6d531c45685ad2e19d02998734cdb747fb0d69c
+Expires: Thu, 15 May 2025 12:35:43 GMT
+Source-Age: 0
+
+
+2025-05-15 18:00:46,008 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-15 18:00:46,008 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-15 18:00:46,008 - INFO - Logging has been set up successfully
