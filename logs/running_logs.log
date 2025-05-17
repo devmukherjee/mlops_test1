@@ -340,3 +340,8 @@ Source-Age: 0
 2025-05-17 21:14:17,701 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
 2025-05-17 21:14:17,703 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
 2025-05-17 21:14:17,705 - INFO - created directory at: artifacts
+2025-05-17 21:15:43,018 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 21:15:43,026 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 21:15:43,026 - INFO - created directory at: artifacts
+2025-05-17 21:15:43,026 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-17 21:15:43,026 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
