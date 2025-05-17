@@ -162,3 +162,135 @@ Source-Age: 0
 2025-05-15 18:00:46,008 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
 2025-05-15 18:00:46,008 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
 2025-05-15 18:00:46,008 - INFO - Logging has been set up successfully
+2025-05-16 21:21:03,452 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:21:03,454 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:21:03,457 - INFO - created directory at: artifacts
+2025-05-16 21:21:03,459 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:21:54,494 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:21:54,498 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:21:54,498 - INFO - created directory at: artifacts
+2025-05-16 21:21:54,498 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:23:29,571 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:23:29,571 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:23:29,571 - INFO - created directory at: artifacts
+2025-05-16 21:23:29,587 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:24:32,274 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:24:32,280 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:24:32,282 - INFO - created directory at: artifacts
+2025-05-16 21:24:32,284 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:24:32,605 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-16 21:27:29,721 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:27:29,730 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:27:29,736 - INFO - created directory at: artifacts
+2025-05-16 21:27:29,739 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:27:30,050 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-16 21:28:42,172 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:28:42,179 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:28:42,181 - INFO - created directory at: artifacts
+2025-05-16 21:28:42,183 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:28:42,500 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-16 21:30:19,877 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-16 21:30:19,878 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-16 21:30:19,883 - INFO - created directory at: artifacts
+2025-05-16 21:30:19,884 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-16 21:30:20,191 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-16 21:30:20,377 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-17 20:24:35,235 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:24:35,235 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 20:24:35,235 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 20:24:35,235 - INFO - created directory at: artifacts
+2025-05-17 20:24:35,246 - INFO - created directory at: artifacts/data_ingestion
+2025-05-17 20:24:40,042 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7152:34E8F2:167DC3:308D12:6828A32B
+Accept-Ranges: bytes
+Date: Sat, 17 May 2025 14:54:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4745-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747493676.977755,VS0,VE2041
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0f4c35109fb3ce790c9b5e33546b9154f146b18d
+Expires: Sat, 17 May 2025 14:59:38 GMT
+Source-Age: 2
+
+
+2025-05-17 20:24:40,209 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-17 20:24:40,209 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:24:40,209 - INFO - Logging has been set up successfully
+2025-05-17 20:24:40,209 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:24:40,209 - ERROR - ConfigurationManager.__init__() got an unexpected keyword argument 'config_file_path'
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 21, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_02_prepare_base_model.py", line 20, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    config= ConfigurationManager(config_file_path= CONFIG_FILE_PATH, params_file_path=PARAMS_FILE_PATH)
+TypeError: ConfigurationManager.__init__() got an unexpected keyword argument 'config_file_path'
+2025-05-17 20:27:17,752 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:27:17,754 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-17 20:27:17,754 - ERROR - ConfigurationManager.__init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path'
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 9, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_01_data_ingestion.py", line 22, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_01_data_ingestion.py", line 15, in main
+    configuration_manager= ConfigurationManager()
+TypeError: ConfigurationManager.__init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path'
+2025-05-17 20:29:02,061 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:29:02,061 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 20:29:02,061 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 20:29:02,061 - INFO - created directory at: artifacts
+2025-05-17 20:29:02,061 - INFO - created directory at: artifacts/data_ingestion
+2025-05-17 20:29:03,844 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7152:34E8F2:167DC3:308D12:6828A32B
+Accept-Ranges: bytes
+Date: Sat, 17 May 2025 14:59:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4743-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747493942.496135,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6af60f562e8215f4ed9343ccb31b6d7c831a7144
+Expires: Sat, 17 May 2025 15:04:02 GMT
+Source-Age: 266
+
+
+2025-05-17 20:29:04,026 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-17 20:29:04,026 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:29:04,026 - INFO - Logging has been set up successfully
+2025-05-17 20:29:04,026 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:29:04,026 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 20:29:04,026 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 20:29:04,026 - INFO - created directory at: artifacts
+2025-05-17 20:29:04,026 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-17 20:29:04,410 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-17 20:29:04,527 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-17 20:29:04,603 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
