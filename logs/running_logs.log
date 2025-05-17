@@ -337,3 +337,6 @@ Source-Age: 0
 2025-05-17 20:31:21,521 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 2025-05-17 20:31:21,639 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 2025-05-17 20:31:21,712 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 21:14:17,701 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 21:14:17,703 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 21:14:17,705 - INFO - created directory at: artifacts

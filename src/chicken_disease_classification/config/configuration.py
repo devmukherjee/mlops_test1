@@ -2,8 +2,11 @@
 from src.chicken_disease_classification.constants import CONFIG_FILE_PATH,PARAMS_FILE_PATH
 from src.chicken_disease_classification.utils.common import read_yaml, create_directories
 from pathlib import Path
-from src.chicken_disease_classification.entity.config_entity import DataIngestionConfig,PrepareBaseModelConfig
+from src.chicken_disease_classification.entity.config_entity import (DataIngestionConfig,
+                                                                     PrepareBaseModelConfig,
+                                                                     PrepareCallbacksConfig)
 from ensure import ensure_annotations
+import os
 
 class ConfigurationManager:
     def __init__(self,
@@ -43,3 +46,15 @@ class ConfigurationManager:
         )
 
         return prepare_base_model_config
+
+    def get_prepare_callbacks_config(self)-> PrepareCallbacksConfig :
+        config= self.config.prepare_callbacks
+        model_chkpt_dir= os.path.dirname(config.checkpoint_model_filepath)
+        create_directories([Path(model_chkpt_dir),Path(config.tensorboard_root_log_dir)])
+
+        prepare_callbacks_config = PrepareCallbacksConfig(
+            root_directory=Path(config.root_directory),
+            tensorboard_root_log_directory= Path(config.tensorboard_root_log_dir),
+            checkpoint_model_filepath= Path(config.checkpoint_model_filepath)
+        )
+        return prepare_callbacks_config
