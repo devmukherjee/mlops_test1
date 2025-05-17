@@ -294,3 +294,46 @@ Source-Age: 266
 2025-05-17 20:29:04,410 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 2025-05-17 20:29:04,527 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
 2025-05-17 20:29:04,603 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:31:18,399 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:31:18,401 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 20:31:18,401 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 20:31:18,401 - INFO - created directory at: artifacts
+2025-05-17 20:31:18,401 - INFO - created directory at: artifacts/data_ingestion
+2025-05-17 20:31:21,076 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7152:34E8F2:167DC3:308D12:6828A32B
+Accept-Ranges: bytes
+Date: Sat, 17 May 2025 15:01:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4741-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747494079.894258,VS0,VE344
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a3969d3062f6f4c9407096d761ae4c93b677bcc3
+Expires: Sat, 17 May 2025 15:06:19 GMT
+Source-Age: 0
+
+
+2025-05-17 20:31:21,247 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-17 20:31:21,247 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:31:21,247 - INFO - Logging has been set up successfully
+2025-05-17 20:31:21,247 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-17 20:31:21,247 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-17 20:31:21,259 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-17 20:31:21,259 - INFO - created directory at: artifacts
+2025-05-17 20:31:21,260 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-17 20:31:21,521 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-17 20:31:21,639 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-17 20:31:21,712 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
