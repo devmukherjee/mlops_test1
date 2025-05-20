@@ -9,9 +9,14 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
+import tensorflow as tf
 
+def one_hot_encode(image, label):
+  """One-hot encodes the label."""
+  label = tf.one_hot(label, depth=2) # Replace '2' with the number of your classes
+  return image, label
 
-
+    #one_hot_train_dataset = resized_train_dataset.map(one_hot_encode)
 
 
 @ensure_annotations

@@ -4,7 +4,8 @@ from src.chicken_disease_classification.utils.common import read_yaml, create_di
 from pathlib import Path
 from src.chicken_disease_classification.entity.config_entity import (DataIngestionConfig,
                                                                      PrepareBaseModelConfig,
-                                                                     PrepareCallbacksConfig)
+                                                                     PrepareCallbacksConfig,
+                                                                     TrainingConfig)
 from ensure import ensure_annotations
 import os
 
@@ -58,3 +59,24 @@ class ConfigurationManager:
             checkpoint_model_filepath= Path(config.checkpoint_model_filepath)
         )
         return prepare_callbacks_config
+    
+    def training_config(self) -> TrainingConfig:
+        training= self.config.training
+        prepare_base_model= self.config.prepare_base_model
+        params= self.params
+        training_data= os.path.join(self.config.data_ingestion.unzip_dir,"Chicken-fecal-images")
+        
+        create_directories([Path(training.root_directory)])
+        
+        training_config= TrainingConfig(
+            root_directory= Path(training.root_directory),
+            trained_model_path= Path(training.model_file_path),
+            updated_base_model_path= Path(prepare_base_model.updated_base_model_path),
+            training_data= Path(training_data),
+            params_epochs= params.EPOCHS,
+            params_batch_size=params.BATCH_SIZE,
+            params_is_augmentation=params.AUGMENTATION,
+            params_image_size=params.IMAGE_SIZE
+        )
+
+        return training_config

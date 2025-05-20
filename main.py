@@ -1,6 +1,7 @@
 from src.chicken_disease_classification import logger
 from src.chicken_disease_classification.pipeline.stage_01_data_ingestion import DataIngestionPipeline
 from src.chicken_disease_classification.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
+from src.chicken_disease_classification.pipeline.stage_03_training import ModelTrainingPipeline
 STAGE_NAME= "01 Data Ingestion Stage"
 try:
     pass
@@ -23,3 +24,14 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+
+STAGE_NAME= 'Final Model Training Pipeline'
+try:
+    pass
+    logger.info(f"*************** Stage: {STAGE_NAME} started <<<<<<<<<<<<<<<<<<<<<<<<<<")
+    obj= ModelTrainingPipeline()
+    obj.main()
+    logger.info(f"*************** Stage: {STAGE_NAME} completed <<<<<<<<<<<<<<<<<<<<<<<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e

@@ -345,3 +345,1967 @@ Source-Age: 0
 2025-05-17 21:15:43,026 - INFO - created directory at: artifacts
 2025-05-17 21:15:43,026 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
 2025-05-17 21:15:43,026 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 13:39:11,587 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 13:39:11,588 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 13:39:11,594 - INFO - created directory at: artifacts
+2025-05-18 13:39:11,596 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 13:39:11,596 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 13:39:11,596 - INFO - created directory at: artifacts\training
+2025-05-18 13:39:11,932 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 13:51:06,426 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 13:51:06,432 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 13:51:06,432 - INFO - created directory at: artifacts
+2025-05-18 13:51:06,436 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 13:51:06,436 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 13:51:06,439 - INFO - created directory at: artifacts\training
+2025-05-18 13:51:06,699 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 13:54:55,952 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 13:54:55,952 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 13:54:55,959 - INFO - created directory at: artifacts
+2025-05-18 13:54:55,959 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 13:54:55,962 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 13:54:55,966 - INFO - created directory at: artifacts\training
+2025-05-18 13:54:56,200 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 14:12:52,944 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:12:52,944 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:12:52,944 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:12:52,955 - INFO - created directory at: artifacts
+2025-05-18 14:12:52,961 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 14:12:55,966 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 582C:34E8F2:290D40:5B253F:68299D8C
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 08:42:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4727-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747557773.091076,VS0,VE898
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a11322774170f932ca307e6998b9a6c6e912c45b
+Expires: Sun, 18 May 2025 08:47:53 GMT
+Source-Age: 1
+
+
+2025-05-18 14:12:56,188 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 14:12:56,188 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:12:56,188 - INFO - Logging has been set up successfully
+2025-05-18 14:12:56,188 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:12:56,188 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:12:56,188 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:12:56,188 - INFO - created directory at: artifacts
+2025-05-18 14:12:56,188 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 14:12:56,638 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 14:12:56,790 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 14:12:56,882 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:12:56,884 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:12:56,887 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:12:56,887 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:12:56,887 - INFO - created directory at: artifacts
+2025-05-18 14:12:56,887 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 14:12:56,887 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 14:12:56,891 - INFO - created directory at: artifacts\training
+2025-05-18 14:12:57,017 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 14:12:57,069 - ERROR - You must call `compile()` before using the model.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\trainers\trainer.py", line 1049, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+2025-05-18 14:14:55,383 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:14:55,386 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:14:55,387 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:14:55,387 - INFO - created directory at: artifacts
+2025-05-18 14:14:55,388 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 14:14:57,405 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 582C:34E8F2:290D40:5B253F:68299D8C
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 08:44:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4749-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747557895.975932,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 269cd941502ee4ce984a3d5f511bb96718f9e9ee
+Expires: Sun, 18 May 2025 08:49:54 GMT
+Source-Age: 121
+
+
+2025-05-18 14:14:57,620 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 14:14:57,620 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:14:57,620 - INFO - Logging has been set up successfully
+2025-05-18 14:14:57,620 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:14:57,631 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:14:57,631 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:14:57,631 - INFO - created directory at: artifacts
+2025-05-18 14:14:57,631 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 14:14:58,451 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:14:58,451 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:14:58,457 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:14:58,457 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:14:58,457 - INFO - created directory at: artifacts
+2025-05-18 14:14:58,457 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 14:14:58,468 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 14:14:58,470 - INFO - created directory at: artifacts\training
+2025-05-18 14:14:58,646 - ERROR - You must call `compile()` before using the model.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\trainers\trainer.py", line 1049, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+2025-05-18 14:16:50,676 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:16:50,679 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:16:50,679 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:16:50,679 - INFO - created directory at: artifacts
+2025-05-18 14:16:50,679 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 14:16:52,399 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 582C:34E8F2:290D40:5B253F:68299D8C
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 08:46:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4725-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747558010.316182,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9487d735be90a7000f68d3013891678ed98a8eab
+Expires: Sun, 18 May 2025 08:51:50 GMT
+Source-Age: 237
+
+
+2025-05-18 14:16:52,612 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 14:16:52,612 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:16:52,612 - INFO - Logging has been set up successfully
+2025-05-18 14:16:52,612 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:16:52,612 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:16:52,615 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:16:52,615 - INFO - created directory at: artifacts
+2025-05-18 14:16:52,615 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 14:16:52,888 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 14:16:53,025 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 14:16:53,108 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:16:53,108 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:16:53,110 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:16:53,112 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:16:53,112 - INFO - created directory at: artifacts
+2025-05-18 14:16:53,115 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 14:16:53,115 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 14:16:53,115 - INFO - created directory at: artifacts\training
+2025-05-18 14:16:53,233 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 14:16:53,289 - ERROR - You must call `compile()` before using the model.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\trainers\trainer.py", line 1049, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+2025-05-18 14:21:50,300 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:21:50,300 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:21:50,300 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:21:50,300 - INFO - created directory at: artifacts
+2025-05-18 14:21:50,300 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 14:21:50,300 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-18 14:21:50,466 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 14:21:50,466 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:21:50,466 - INFO - Logging has been set up successfully
+2025-05-18 14:21:50,466 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:21:50,473 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:21:50,473 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:21:50,473 - INFO - created directory at: artifacts
+2025-05-18 14:21:50,473 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 14:21:50,786 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 14:21:50,921 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 14:21:51,018 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:21:51,018 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:21:51,022 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:21:51,022 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:21:51,022 - INFO - created directory at: artifacts
+2025-05-18 14:21:51,022 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 14:21:51,022 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 14:21:51,027 - INFO - created directory at: artifacts\training
+2025-05-18 14:21:51,157 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 14:21:51,190 - ERROR - You must call `compile()` before using the model.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\trainers\trainer.py", line 1049, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+2025-05-18 14:27:18,407 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:27:18,411 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:27:18,411 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:27:18,411 - INFO - created directory at: artifacts
+2025-05-18 14:27:18,411 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 14:27:20,596 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 582C:34E8F2:290D40:5B253F:68299D8C
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 08:57:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4735-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1747558638.331288,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 67e41aad18caae7175247b065340b374c64a7bed
+Expires: Sun, 18 May 2025 09:02:18 GMT
+Source-Age: 0
+
+
+2025-05-18 14:27:20,811 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 14:27:20,811 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:27:20,811 - INFO - Logging has been set up successfully
+2025-05-18 14:27:20,811 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 14:27:20,819 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 14:27:20,819 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 14:27:20,819 - INFO - created directory at: artifacts
+2025-05-18 14:27:20,819 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 14:27:21,115 - ERROR - module 'keras._tf_keras.keras' has no attribute 'saving'
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 22, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_02_prepare_base_model.py", line 20, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_02_prepare_base_model.py", line 17, in main
+    prepare_base_model.get_base_model()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\prepare_base_model.py", line 19, in get_base_model
+    self.save_model(path= self.config.base_model_path, model= self.model)
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\prepare_base_model.py", line 57, in save_model
+    tf.keras.saving.save_model(model,path)
+AttributeError: module 'keras._tf_keras.keras' has no attribute 'saving'
+2025-05-18 19:37:43,691 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:37:43,698 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:37:43,698 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:37:43,698 - INFO - created directory at: artifacts
+2025-05-18 19:37:43,698 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 19:37:43,874 - ERROR - Data Ingestion Setup failed with Exception: {e}
+2025-05-18 19:37:43,874 - ERROR - local variable 'filename' referenced before assignment
+Traceback (most recent call last):
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 976, in send
+    self.connect()
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\data_ingestion.py", line 16, in download_file
+    filename,headers= request.urlretrieve(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 10, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_01_data_ingestion.py", line 22, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingester_component.download_file()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\data_ingestion.py", line 22, in download_file
+    logger.error(f"filename: {filename} download failed with Exception {e}")
+UnboundLocalError: local variable 'filename' referenced before assignment
+2025-05-18 19:39:20,128 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:39:20,146 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:39:20,146 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:39:20,148 - INFO - created directory at: artifacts
+2025-05-18 19:39:20,148 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 19:39:22,874 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 14:09:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4739-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747577360.041548,VS0,VE859
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: dd43593537e7e6f2fbc3615b4f5f2d7466e2e562
+Expires: Sun, 18 May 2025 14:14:20 GMT
+Source-Age: 1
+
+
+2025-05-18 19:39:23,101 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 19:39:23,101 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:39:23,101 - INFO - Logging has been set up successfully
+2025-05-18 19:39:23,101 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:39:23,104 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:39:23,104 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:39:23,104 - INFO - created directory at: artifacts
+2025-05-18 19:39:23,104 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 19:39:23,406 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 19:39:23,560 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 19:39:23,679 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:39:23,679 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:39:23,681 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:39:23,681 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:39:23,681 - INFO - created directory at: artifacts
+2025-05-18 19:39:23,681 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 19:39:23,681 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 19:39:23,685 - INFO - created directory at: artifacts\training
+2025-05-18 19:39:23,828 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 19:39:23,872 - ERROR - You must call `compile()` before using the model.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\trainers\trainer.py", line 1049, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+2025-05-18 19:50:10,937 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:50:10,937 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:50:10,937 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:50:10,937 - INFO - created directory at: artifacts
+2025-05-18 19:50:10,937 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 19:50:13,314 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 14:20:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747578011.902247,VS0,VE348
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: dff8c38902371f715ad5042a75153486f9a51ca4
+Expires: Sun, 18 May 2025 14:25:11 GMT
+Source-Age: 0
+
+
+2025-05-18 19:50:13,496 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 19:50:13,496 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:50:13,496 - INFO - Logging has been set up successfully
+2025-05-18 19:50:13,496 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:50:13,496 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:50:13,496 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:50:13,496 - INFO - created directory at: artifacts
+2025-05-18 19:50:13,496 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 19:50:13,811 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 19:50:13,935 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 19:50:14,024 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:50:14,024 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:50:14,026 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:50:14,028 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:50:14,028 - INFO - created directory at: artifacts
+2025-05-18 19:50:14,030 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 19:50:14,030 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 19:50:14,031 - INFO - created directory at: artifacts\training
+2025-05-18 19:50:14,166 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-18 19:50:14,216 - ERROR - You must call `compile()` before using the model.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\trainers\trainer.py", line 1049, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+2025-05-18 19:55:13,108 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:55:13,108 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:55:13,108 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:55:13,108 - INFO - created directory at: artifacts
+2025-05-18 19:55:13,108 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 19:55:15,864 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 14:25:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4721-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747578313.004671,VS0,VE342
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 40cbe2d5c6d84ebb6279be138f450037370d937a
+Expires: Sun, 18 May 2025 14:30:13 GMT
+Source-Age: 0
+
+
+2025-05-18 19:55:16,103 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 19:55:16,103 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:55:16,103 - INFO - Logging has been set up successfully
+2025-05-18 19:55:16,103 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:55:16,103 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:55:16,115 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:55:16,115 - INFO - created directory at: artifacts
+2025-05-18 19:55:16,115 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 19:55:16,444 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 19:55:16,585 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 19:55:16,612 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 19:55:16,736 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:55:16,739 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 19:55:16,739 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 19:55:16,742 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 19:55:16,742 - INFO - created directory at: artifacts
+2025-05-18 19:55:16,742 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 19:55:16,742 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 19:55:16,742 - INFO - created directory at: artifacts\training
+2025-05-18 19:55:16,900 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 19:55:18,174 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-18 20:20:26,449 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:20:26,453 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:20:26,457 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:20:26,457 - INFO - created directory at: artifacts
+2025-05-18 20:20:26,459 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 20:20:29,126 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 14:50:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4743-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747579827.699312,VS0,VE357
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 39067b48afad2a760eb818df0aeefe40261d00f6
+Expires: Sun, 18 May 2025 14:55:27 GMT
+Source-Age: 0
+
+
+2025-05-18 20:20:29,448 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 20:20:29,448 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:20:29,448 - INFO - Logging has been set up successfully
+2025-05-18 20:20:29,448 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:20:29,452 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:20:29,452 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:20:29,455 - INFO - created directory at: artifacts
+2025-05-18 20:20:29,457 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 20:20:29,901 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:20:30,054 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 20:20:30,098 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:20:30,242 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:20:30,242 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:20:30,246 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:20:30,247 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:20:30,247 - INFO - created directory at: artifacts
+2025-05-18 20:20:30,251 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 20:20:30,252 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 20:20:30,253 - INFO - created directory at: artifacts\training
+2025-05-18 20:20:30,454 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 20:20:31,930 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 71, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-18 20:34:05,690 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:34:05,699 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:34:05,700 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:34:05,700 - INFO - created directory at: artifacts
+2025-05-18 20:34:05,700 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 20:34:08,991 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 15:04:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4747-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747580646.878472,VS0,VE348
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0c812b2db4927b82cb9e8e93a8fd010c411e0ce4
+Expires: Sun, 18 May 2025 15:09:06 GMT
+Source-Age: 0
+
+
+2025-05-18 20:34:09,318 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 20:34:09,318 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:34:09,335 - INFO - Logging has been set up successfully
+2025-05-18 20:34:09,335 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:34:09,335 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:34:09,335 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:34:09,335 - INFO - created directory at: artifacts
+2025-05-18 20:34:09,335 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 20:34:09,804 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:34:10,007 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 20:34:10,049 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:34:10,208 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:34:10,208 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:34:10,208 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:34:10,208 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:34:10,208 - INFO - created directory at: artifacts
+2025-05-18 20:34:10,219 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 20:34:10,221 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 20:34:10,221 - ERROR - 'TensorBoard' object is not callable
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 18, in main
+    callback_list= prepare_callback_component.get_tb_ckpt_callbacks()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\prepare_callbacks.py", line 32, in get_tb_ckpt_callbacks
+    self._create_tb_callbacks(),
+TypeError: 'TensorBoard' object is not callable
+2025-05-18 20:34:59,460 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:34:59,467 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:34:59,467 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:34:59,467 - INFO - created directory at: artifacts
+2025-05-18 20:34:59,467 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 20:35:01,323 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 15:04:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4720-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1747580699.315142,VS0,VE10
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ab0b29b61a22256abf40f63bec790cfdd744c572
+Expires: Sun, 18 May 2025 15:09:59 GMT
+Source-Age: 53
+
+
+2025-05-18 20:35:01,657 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 20:35:01,657 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:35:01,657 - INFO - Logging has been set up successfully
+2025-05-18 20:35:01,657 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:35:01,657 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:35:01,657 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:35:01,664 - INFO - created directory at: artifacts
+2025-05-18 20:35:01,664 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 20:35:02,106 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:35:02,282 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 20:35:02,329 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:35:02,441 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:35:02,441 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:35:02,441 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:35:02,441 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:35:02,441 - INFO - created directory at: artifacts
+2025-05-18 20:35:02,452 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 20:35:02,452 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 20:35:02,454 - INFO - created directory at: artifacts\training
+2025-05-18 20:35:02,656 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 20:35:04,183 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 72, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-18 20:36:42,590 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:36:42,596 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:36:42,596 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:36:42,600 - INFO - created directory at: artifacts
+2025-05-18 20:36:42,601 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 20:36:42,602 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-18 20:36:42,854 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 20:36:42,854 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:36:42,854 - INFO - Logging has been set up successfully
+2025-05-18 20:36:42,854 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:36:42,857 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:36:42,857 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:36:42,857 - INFO - created directory at: artifacts
+2025-05-18 20:36:42,863 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 20:36:43,275 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:36:43,438 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 20:36:43,477 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:36:43,594 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:36:43,594 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:36:43,594 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:36:43,594 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:36:43,601 - INFO - created directory at: artifacts
+2025-05-18 20:36:43,603 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 20:36:43,604 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 20:36:43,605 - INFO - created directory at: artifacts\training
+2025-05-18 20:36:43,813 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 20:36:45,447 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 72, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-18 20:52:27,209 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:52:27,221 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:52:27,225 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:52:27,225 - INFO - created directory at: artifacts
+2025-05-18 20:52:27,225 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 20:52:29,654 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 15:22:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4736-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747581747.293020,VS0,VE355
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0293046d706d26e1df17c232c8b9cb52f05fecad
+Expires: Sun, 18 May 2025 15:27:27 GMT
+Source-Age: 0
+
+
+2025-05-18 20:52:29,950 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 20:52:29,950 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:52:29,950 - INFO - Logging has been set up successfully
+2025-05-18 20:52:29,950 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:52:29,960 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:52:29,960 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:52:29,960 - INFO - created directory at: artifacts
+2025-05-18 20:52:29,960 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 20:52:30,412 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:52:30,578 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 20:52:30,629 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:52:30,813 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:52:30,813 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:52:30,831 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:52:30,834 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:52:30,836 - INFO - created directory at: artifacts
+2025-05-18 20:52:30,837 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 20:52:30,837 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 20:52:30,837 - INFO - created directory at: artifacts\training
+2025-05-18 20:52:31,063 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 20:52:33,016 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 35, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 72, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-18 20:54:47,340 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:54:47,353 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:54:47,356 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:54:47,358 - INFO - created directory at: artifacts
+2025-05-18 20:54:47,358 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 20:54:47,359 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-18 20:54:47,654 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 20:54:47,654 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:54:47,654 - INFO - Logging has been set up successfully
+2025-05-18 20:54:47,654 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:54:47,657 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:54:47,658 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:54:47,658 - INFO - created directory at: artifacts
+2025-05-18 20:54:47,660 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 20:54:48,133 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:54:48,300 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 20:54:48,338 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 20:54:48,472 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:54:48,472 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 20:54:48,472 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 20:54:48,472 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 20:54:48,480 - INFO - created directory at: artifacts
+2025-05-18 20:54:48,481 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 20:54:48,483 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 20:54:48,484 - INFO - created directory at: artifacts\training
+2025-05-18 20:54:48,684 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 20:54:50,189 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 35, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 72, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-18 21:43:35,849 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:43:35,859 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 21:43:35,870 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 21:43:35,874 - INFO - created directory at: artifacts
+2025-05-18 21:43:35,874 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 21:43:39,069 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 16:13:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4737-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747584817.888943,VS0,VE374
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: dcdba6bcd3a3eae1b39875aa2206af6c65b3e1b8
+Expires: Sun, 18 May 2025 16:18:37 GMT
+Source-Age: 0
+
+
+2025-05-18 21:43:39,356 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 21:43:39,356 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:43:39,356 - INFO - Logging has been set up successfully
+2025-05-18 21:43:39,356 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:43:39,365 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 21:43:39,365 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 21:43:39,365 - INFO - created directory at: artifacts
+2025-05-18 21:43:39,365 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 21:43:39,971 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 21:43:40,088 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 21:43:40,131 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 21:43:40,256 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:43:40,256 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:43:40,256 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 21:43:40,256 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 21:43:40,256 - INFO - created directory at: artifacts
+2025-05-18 21:43:40,269 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 21:43:40,270 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 21:43:40,273 - INFO - created directory at: artifacts\training
+2025-05-18 21:43:40,446 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 21:43:40,446 - ERROR - module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 35, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 29, in main
+    training_component.train_valid_generator()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 35, in train_valid_generator
+    valid_datagenerator= keras.preprocessing.image.ImageDataGenerator(**datagenerator_kwargs)
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+2025-05-18 21:46:39,046 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:46:39,052 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 21:46:39,052 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 21:46:39,056 - INFO - created directory at: artifacts
+2025-05-18 21:46:39,058 - INFO - created directory at: artifacts/data_ingestion
+2025-05-18 21:46:41,460 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E2FE:33CA26:23A829:5D25ED:6829EA0F
+Accept-Ranges: bytes
+Date: Sun, 18 May 2025 16:16:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4748-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747585000.066364,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cc7d961b888cd2d1de21d7fc8ddfe478a99f4e0d
+Expires: Sun, 18 May 2025 16:21:40 GMT
+Source-Age: 183
+
+
+2025-05-18 21:46:41,770 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-18 21:46:41,770 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:46:41,770 - INFO - Logging has been set up successfully
+2025-05-18 21:46:41,770 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:46:41,776 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 21:46:41,779 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 21:46:41,780 - INFO - created directory at: artifacts
+2025-05-18 21:46:41,780 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-18 21:46:42,244 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 21:46:42,396 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-18 21:46:42,437 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-18 21:46:42,564 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:46:42,564 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-18 21:46:42,564 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-18 21:46:42,564 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-18 21:46:42,564 - INFO - created directory at: artifacts
+2025-05-18 21:46:42,577 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-18 21:46:42,577 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-18 21:46:42,579 - INFO - created directory at: artifacts\training
+2025-05-18 21:46:42,762 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-18 21:46:43,491 - WARNING - From E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py:35: The name tf.enable_eager_execution is deprecated. Please use tf.compat.v1.enable_eager_execution instead.
+
+2025-05-18 21:46:44,527 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 35, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 74, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-19 20:45:45,238 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:45:45,246 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:45:45,248 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:45:45,248 - INFO - created directory at: artifacts
+2025-05-19 20:45:45,248 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 20:47:16,879 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D03E:209BC3:51579A:AC8C2F:682B4B21
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 15:15:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4742-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747667746.078237,VS0,VE935
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4c9c647d6b514db9b3ac55b6b9622cda65d902d2
+Expires: Mon, 19 May 2025 15:20:47 GMT
+Source-Age: 1
+
+
+2025-05-19 20:47:17,038 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 20:47:17,038 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:47:17,038 - INFO - Logging has been set up successfully
+2025-05-19 20:47:17,038 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:47:17,038 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:47:17,038 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:47:17,038 - INFO - created directory at: artifacts
+2025-05-19 20:47:17,038 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 20:47:17,438 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 20:47:17,527 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 20:47:17,557 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 20:47:17,644 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:47:17,644 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:47:17,646 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:47:17,646 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:47:17,648 - INFO - created directory at: artifacts
+2025-05-19 20:47:17,648 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 20:47:17,648 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 20:47:17,648 - INFO - created directory at: artifacts\training
+2025-05-19 20:47:17,768 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 20:47:17,768 - ERROR - image_dataset_from_directory() got an unexpected keyword argument 'rescale'
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train_valid_generator()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 36, in train_valid_generator
+    validation_dataset= tf.keras.preprocessing.image_dataset_from_directory(**validation_dataset_kwargs)
+TypeError: image_dataset_from_directory() got an unexpected keyword argument 'rescale'
+2025-05-19 20:52:10,026 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:52:10,026 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:52:10,026 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:52:10,026 - INFO - created directory at: artifacts
+2025-05-19 20:52:10,026 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 20:52:10,026 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 20:52:10,175 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 20:52:10,175 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:52:10,175 - INFO - Logging has been set up successfully
+2025-05-19 20:52:10,175 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:52:10,175 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:52:10,175 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:52:10,175 - INFO - created directory at: artifacts
+2025-05-19 20:52:10,175 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 20:52:10,462 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 20:52:10,553 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 20:52:10,575 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 20:52:10,650 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:52:10,650 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:52:10,658 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:52:10,658 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:52:10,658 - INFO - created directory at: artifacts
+2025-05-19 20:52:10,658 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 20:52:10,658 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 20:52:10,658 - INFO - created directory at: artifacts\training
+2025-05-19 20:52:10,779 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 20:52:10,848 - ERROR - If using `validation_split` and shuffling the data, you must provide a `seed` argument, to make sure that there is no overlap between the training and validation subset.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train_valid_generator()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 46, in train_valid_generator
+    train__dataset= tf.keras.preprocessing.image_dataset_from_directory(**train_dataset_kwargs)
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\image_dataset_utils.py", line 226, in image_dataset_from_directory
+    dataset_utils.check_validation_split_arg(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\dataset_utils.py", line 759, in check_validation_split_arg
+    raise ValueError(
+ValueError: If using `validation_split` and shuffling the data, you must provide a `seed` argument, to make sure that there is no overlap between the training and validation subset.
+2025-05-19 20:53:41,375 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:53:41,375 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:53:41,375 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:53:41,375 - INFO - created directory at: artifacts
+2025-05-19 20:53:41,380 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 20:55:33,965 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D03E:209BC3:51579A:AC8C2F:682B4B21
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 15:23:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4739-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747668222.991369,VS0,VE271
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1eee0a2352df21f4dfaf3d16fc753c8feacc6d19
+Expires: Mon, 19 May 2025 15:28:42 GMT
+Source-Age: 0
+
+
+2025-05-19 20:55:34,141 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 20:55:34,141 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:55:34,141 - INFO - Logging has been set up successfully
+2025-05-19 20:55:34,141 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:55:34,141 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:55:34,141 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:55:34,141 - INFO - created directory at: artifacts
+2025-05-19 20:55:34,141 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 20:55:34,382 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 20:55:34,446 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 20:55:34,478 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 20:55:34,540 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:55:34,540 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 20:55:34,540 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 20:55:34,540 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 20:55:34,540 - INFO - created directory at: artifacts
+2025-05-19 20:55:34,552 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 20:55:34,552 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 20:55:34,552 - INFO - created directory at: artifacts\training
+2025-05-19 20:55:34,674 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 20:55:35,293 - ERROR - Input 0 of layer "functional" is incompatible with the layer: expected shape=(None, 224, 224, 3), found shape=(None, 256, 256, 3)
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 60, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\layers\input_spec.py", line 245, in assert_input_compatibility
+    raise ValueError(
+ValueError: Input 0 of layer "functional" is incompatible with the layer: expected shape=(None, 224, 224, 3), found shape=(None, 256, 256, 3)
+2025-05-19 21:08:23,431 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:08:23,431 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:08:23,431 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:08:23,441 - INFO - created directory at: artifacts
+2025-05-19 21:08:23,441 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:08:26,051 - INFO - filename:artifacts/data_ingestion/data.zip downloaded with the following info  :File location: E:\Python Projects\Deep_learning\mlops_test1\artifacts\data_ingestion\data.zip 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D03E:209BC3:51579A:AC8C2F:682B4B21
+Accept-Ranges: bytes
+Date: Mon, 19 May 2025 15:38:24 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747669104.151136,VS0,VE344
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b657c058d2b35239564bcdbf3956696d1fd7a618
+Expires: Mon, 19 May 2025 15:43:24 GMT
+Source-Age: 0
+
+
+2025-05-19 21:08:26,197 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:08:26,197 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:08:26,197 - INFO - Logging has been set up successfully
+2025-05-19 21:08:26,197 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:08:26,197 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:08:26,197 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:08:26,197 - INFO - created directory at: artifacts
+2025-05-19 21:08:26,197 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:08:26,437 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:08:26,519 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:08:26,551 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:08:26,620 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:08:26,620 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:08:26,637 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:08:26,637 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:08:26,637 - INFO - created directory at: artifacts
+2025-05-19 21:08:26,637 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:08:26,637 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:08:26,641 - INFO - created directory at: artifacts\training
+2025-05-19 21:08:26,756 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:08:27,362 - ERROR - Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 62, in train
+    self.model.fit(
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "F:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\nn.py", line 653, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+2025-05-19 21:13:26,216 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:13:26,230 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:13:26,230 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:13:26,230 - INFO - created directory at: artifacts
+2025-05-19 21:13:26,230 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:13:26,230 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:13:26,383 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:13:26,383 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:13:26,383 - INFO - Logging has been set up successfully
+2025-05-19 21:13:26,383 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:13:26,383 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:13:26,401 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:13:26,401 - INFO - created directory at: artifacts
+2025-05-19 21:13:26,401 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:13:26,706 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:13:26,814 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:13:26,859 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:13:26,942 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:13:26,942 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:13:26,942 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:13:26,959 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:13:26,960 - INFO - created directory at: artifacts
+2025-05-19 21:13:26,960 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:13:26,961 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:13:26,962 - INFO - created directory at: artifacts\training
+2025-05-19 21:13:27,124 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:17:24,167 - ERROR - Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 62, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\nn.py", line 653, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+2025-05-19 21:25:54,703 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:25:54,719 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:25:54,723 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:25:54,723 - INFO - created directory at: artifacts
+2025-05-19 21:25:54,725 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:25:54,725 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:25:54,886 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:25:54,898 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:25:54,898 - INFO - Logging has been set up successfully
+2025-05-19 21:25:54,898 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:25:54,902 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:25:54,904 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:25:54,904 - INFO - created directory at: artifacts
+2025-05-19 21:25:54,906 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:25:55,192 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:25:55,283 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:25:55,332 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:25:55,417 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:25:55,417 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:25:55,423 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:25:55,426 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:25:55,427 - INFO - created directory at: artifacts
+2025-05-19 21:25:55,427 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:25:55,428 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:25:55,429 - INFO - created directory at: artifacts\training
+2025-05-19 21:25:55,580 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:25:58,998 - ERROR - Invalid `image_size` value. Expected a tuple of 2 integers. Received: image_size=[224, 224, 3]
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 24, in main
+    training_component.train_valid_generator()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 35, in train_valid_generator
+    validation_dataset= tf.keras.preprocessing.image_dataset_from_directory(**validation_dataset_kwargs)
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\image_dataset_utils.py", line 203, in image_dataset_from_directory
+    raise ValueError(
+ValueError: Invalid `image_size` value. Expected a tuple of 2 integers. Received: image_size=[224, 224, 3]
+2025-05-19 21:26:26,293 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:26:26,293 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:26:26,304 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:26:26,304 - INFO - created directory at: artifacts
+2025-05-19 21:26:26,304 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:26:26,307 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:26:26,482 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:26:26,483 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:26:26,483 - INFO - Logging has been set up successfully
+2025-05-19 21:26:26,483 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:26:26,487 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:26:26,490 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:26:26,491 - INFO - created directory at: artifacts
+2025-05-19 21:26:26,491 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:26:26,772 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:26:26,876 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:26:26,914 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:26:27,002 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:26:27,002 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:26:27,002 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:26:27,011 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:26:27,011 - INFO - created directory at: artifacts
+2025-05-19 21:26:27,011 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:26:27,013 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:26:27,014 - INFO - created directory at: artifacts\training
+2025-05-19 21:26:27,168 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:26:42,420 - ERROR - Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 62, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\nn.py", line 653, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+2025-05-19 21:33:33,623 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:33:33,629 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:33:33,633 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:33:33,634 - INFO - created directory at: artifacts
+2025-05-19 21:33:33,634 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:33:33,635 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:33:33,794 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:33:33,794 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:33:33,794 - INFO - Logging has been set up successfully
+2025-05-19 21:33:33,794 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:33:33,803 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:33:33,805 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:33:33,807 - INFO - created directory at: artifacts
+2025-05-19 21:33:33,807 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:33:34,093 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:33:34,200 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:33:34,247 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:33:34,329 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:33:34,329 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:33:34,329 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:33:34,338 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:33:34,338 - INFO - created directory at: artifacts
+2025-05-19 21:33:34,339 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:33:34,339 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:33:34,340 - INFO - created directory at: artifacts\training
+2025-05-19 21:33:34,497 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:33:44,703 - ERROR - Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 62, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\nn.py", line 653, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same rank (ndim). Received: target.shape=(None,), output.shape=(None, 2)
+2025-05-19 21:42:10,344 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:42:10,344 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:42:10,344 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:42:10,344 - INFO - created directory at: artifacts
+2025-05-19 21:42:10,344 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:42:10,360 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:42:10,529 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:42:10,529 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:42:10,529 - INFO - Logging has been set up successfully
+2025-05-19 21:42:10,529 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:42:10,529 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:42:10,540 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:42:10,541 - INFO - created directory at: artifacts
+2025-05-19 21:42:10,542 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:42:10,839 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:42:10,964 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:42:11,007 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:42:11,103 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:42:11,104 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:42:11,109 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:42:11,111 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:42:11,112 - INFO - created directory at: artifacts
+2025-05-19 21:42:11,112 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:42:11,113 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:42:11,114 - INFO - created directory at: artifacts\training
+2025-05-19 21:42:11,288 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:42:29,858 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 68, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-19 21:44:56,898 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:44:56,898 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:44:56,908 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:44:56,909 - INFO - created directory at: artifacts
+2025-05-19 21:44:56,910 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:44:56,910 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:44:57,083 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:44:57,083 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:44:57,083 - INFO - Logging has been set up successfully
+2025-05-19 21:44:57,083 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:44:57,086 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:44:57,090 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:44:57,091 - INFO - created directory at: artifacts
+2025-05-19 21:44:57,091 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:44:57,381 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:44:57,490 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:44:57,541 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:44:57,629 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:44:57,629 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:44:57,633 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:44:57,636 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:44:57,637 - INFO - created directory at: artifacts
+2025-05-19 21:44:57,637 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:44:57,637 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:44:57,638 - INFO - created directory at: artifacts\training
+2025-05-19 21:44:57,801 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:45:03,646 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 68, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-19 21:53:07,187 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:53:07,187 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:53:07,205 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:53:07,206 - INFO - created directory at: artifacts
+2025-05-19 21:53:07,206 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:53:07,207 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:53:07,371 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:53:07,371 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:53:07,371 - INFO - Logging has been set up successfully
+2025-05-19 21:53:07,371 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:53:07,383 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:53:07,385 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:53:07,386 - INFO - created directory at: artifacts
+2025-05-19 21:53:07,387 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:53:07,675 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:53:07,784 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:53:07,834 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:53:07,906 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:53:07,906 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:53:07,922 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:53:07,925 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:53:07,926 - INFO - created directory at: artifacts
+2025-05-19 21:53:07,927 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:53:07,927 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:53:07,927 - INFO - created directory at: artifacts\training
+2025-05-19 21:53:08,083 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:53:19,541 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 67, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-19 21:55:03,960 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:55:03,966 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:55:03,969 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:55:03,970 - INFO - created directory at: artifacts
+2025-05-19 21:55:03,971 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:55:03,972 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:55:04,141 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:55:04,142 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:55:04,142 - INFO - Logging has been set up successfully
+2025-05-19 21:55:04,142 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:55:04,146 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:55:04,149 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:55:04,150 - INFO - created directory at: artifacts
+2025-05-19 21:55:04,150 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:55:04,451 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:55:04,557 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:55:04,600 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:55:04,689 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:55:04,689 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:55:04,693 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:55:04,696 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:55:04,697 - INFO - created directory at: artifacts
+2025-05-19 21:55:04,698 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:55:04,699 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:55:04,699 - INFO - created directory at: artifacts\training
+2025-05-19 21:55:04,864 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:55:15,657 - WARNING - From e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py:67: The name tf.enable_v2_behavior is deprecated. Please use tf.compat.v1.enable_v2_behavior instead.
+
+2025-05-19 21:55:15,940 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 68, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-19 21:56:04,483 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:56:04,483 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:56:04,493 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:56:04,494 - INFO - created directory at: artifacts
+2025-05-19 21:56:04,494 - INFO - created directory at: artifacts/data_ingestion
+2025-05-19 21:56:04,495 - INFO - filename artifacts/data_ingestion/data.zip already exists with size: ~ 11345 KB
+2025-05-19 21:56:04,664 - INFO - Successfully extracted all files from 'artifacts/data_ingestion/data.zip' to 'artifacts/data_ingestion'
+2025-05-19 21:56:04,664 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:56:04,664 - INFO - Logging has been set up successfully
+2025-05-19 21:56:04,664 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:56:04,664 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:56:04,673 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:56:04,673 - INFO - created directory at: artifacts
+2025-05-19 21:56:04,674 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-19 21:56:04,960 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:56:05,052 - INFO - 
+
+
+
+
+
+
+Model COmpilation Started
+
+\m
+
+
+
+
+
+2025-05-19 21:56:05,112 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-19 21:56:05,187 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:56:05,187 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-19 21:56:05,203 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-19 21:56:05,205 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-19 21:56:05,205 - INFO - created directory at: artifacts
+2025-05-19 21:56:05,205 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-19 21:56:05,207 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-19 21:56:05,207 - INFO - created directory at: artifacts\training
+2025-05-19 21:56:05,369 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-19 21:56:13,137 - WARNING - From e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py:67: The name tf.enable_v2_behavior is deprecated. Please use tf.compat.v1.enable_v2_behavior instead.
+
+2025-05-19 21:56:13,420 - ERROR - numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+  File "e:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 30, in main
+    raise e
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 25, in main
+    training_component.train(
+  File "e:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 69, in train
+    self.model.fit(
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
+    return np.array(x)
+NotImplementedError: numpy() is only available when eager execution is enabled.

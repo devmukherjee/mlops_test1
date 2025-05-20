@@ -2,6 +2,8 @@ import os
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
+import keras
+from src.chicken_disease_classification import logger
 
 from pathlib import Path
 from src.chicken_disease_classification.entity.config_entity import PrepareBaseModelConfig
@@ -35,6 +37,7 @@ class PrepareBaseModel:
         full_model= tf.keras.models.Model(inputs= model.input,
                                          outputs= prediction
                                         )
+        logger.info("\n\n\n\n\n\n\nModel COmpilation Started\n\n\m\n\n\n\n\n")
         
         full_model.compile(optimizer= tf.keras.optimizers.SGD(learning_rate= learning_rate),
                            loss= tf.keras.losses.CategoricalCrossentropy(),
@@ -42,7 +45,7 @@ class PrepareBaseModel:
                            )
         full_model.summary()
 
-        return model
+        return full_model
     
     def update_base_model(self):
         self.full_model= self._prepare_full_model(model= self.model,
@@ -54,5 +57,5 @@ class PrepareBaseModel:
   
     @staticmethod
     def save_model(path: Path,model:tf.keras.Model):
-        model.save(path)
+        keras.saving.save_model(model,path)
 
