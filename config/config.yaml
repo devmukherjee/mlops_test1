@@ -21,5 +21,9 @@ training:
   root_directory: artifacts/training
   model_file_path: artifacts/training/model.pth
 
+evaluation:
+  root_directory: artifacts/evaluation
+  metrics_file_path: artifacts/evaluation/scores.json
+
 
   

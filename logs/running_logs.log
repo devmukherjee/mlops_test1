@@ -2510,3 +2510,86 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-05-28 20:16:32,997 - INFO - created directory at: artifacts
 2025-05-28 20:16:32,999 - INFO - created directory at: artifacts\training
 2025-05-28 20:17:02,892 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:20:56,048 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:20:56,053 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:20:56,057 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:20:56,058 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:Argument path_to_directories of type <class 'str'> to <function create_directories at 0x00000295A9067D90> does not match annotation type <class 'list'>
+2025-05-28 22:22:52,177 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:22:52,177 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:22:52,177 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:22:52,177 - INFO - created directory at: artifacts
+2025-05-28 22:22:52,177 - INFO - created directory at: artifacts/data_ingestion
+2025-05-28 22:22:52,397 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:22:52,397 - INFO - Logging has been set up successfully
+2025-05-28 22:22:52,397 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:22:52,400 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:22:52,401 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:22:52,401 - INFO - created directory at: artifacts
+2025-05-28 22:22:52,401 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-28 22:22:52,627 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:22:52,627 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:22:52,628 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:22:52,628 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:22:52,628 - INFO - created directory at: artifacts
+2025-05-28 22:22:52,628 - INFO - created directory at: artifacts\training
+2025-05-28 22:23:21,628 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:23:41,084 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:23:41,089 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:23:41,091 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:23:41,091 - INFO - created directory at: artifacts
+2025-05-28 22:23:41,091 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:23:41,098 - ERROR - [Errno 2] No such file or directory: 'artifacts/training/model.pth'
+2025-05-28 22:23:41,099 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:25:26,142 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:25:26,145 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:25:26,145 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:25:26,148 - INFO - created directory at: artifacts
+2025-05-28 22:25:26,148 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:25:26,148 - ERROR - [Errno 2] No such file or directory: 'artifacts/training/model.pth'
+2025-05-28 22:25:26,148 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:[Errno 2] No such file or directory: 'artifacts/training/model.pth'
+2025-05-28 22:25:32,103 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:25:32,104 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:25:32,108 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:25:32,108 - INFO - created directory at: artifacts
+2025-05-28 22:25:32,108 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:25:32,112 - ERROR - [Errno 2] No such file or directory: 'artifacts/training/model.pth'
+2025-05-28 22:25:32,112 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:[Errno 2] No such file or directory: 'artifacts/training/model.pth'
+2025-05-28 22:27:01,241 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:27:01,245 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:27:01,246 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:27:01,248 - INFO - created directory at: artifacts
+2025-05-28 22:27:01,249 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:27:01,250 - ERROR - [Errno 2] No such file or directory: 'artifacts\\training\\model.pth'
+2025-05-28 22:27:01,251 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:[Errno 2] No such file or directory: 'artifacts\\training\\model.pth'
+2025-05-28 22:34:21,333 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:34:21,342 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:34:21,342 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:34:21,345 - INFO - created directory at: artifacts
+2025-05-28 22:34:21,347 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:34:23,948 - INFO - Loss: 0.1366 Acc: 0.9739
+2025-05-28 22:34:23,948 - ERROR - Argument path of type <class 'str'> to <function save_json at 0x00000180A3577D90> does not match annotation type <class 'pathlib.Path'>
+2025-05-28 22:34:23,948 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:Argument path of type <class 'str'> to <function save_json at 0x00000180A3577D90> does not match annotation type <class 'pathlib.Path'>
+2025-05-28 22:36:01,692 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:36:01,697 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:36:01,698 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:36:01,698 - INFO - created directory at: artifacts
+2025-05-28 22:36:01,698 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:36:04,161 - INFO - Loss: 0.1366 Acc: 0.9739
+2025-05-28 22:36:04,172 - ERROR - Object of type Tensor is not JSON serializable
+2025-05-28 22:36:04,172 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:Object of type Tensor is not JSON serializable
+2025-05-28 22:40:03,599 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:40:03,601 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:40:03,606 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:40:03,607 - INFO - created directory at: artifacts
+2025-05-28 22:40:03,608 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:40:05,845 - INFO - Loss: 0.1366 Acc: 0.9739
+2025-05-28 22:40:05,847 - ERROR - Object of type Tensor is not JSON serializable
+2025-05-28 22:40:05,847 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:Object of type Tensor is not JSON serializable
+2025-05-28 22:43:08,588 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 22:43:08,593 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 22:43:08,597 - INFO - yaml file: e:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 22:43:08,600 - INFO - created directory at: artifacts
+2025-05-28 22:43:08,601 - INFO - created directory at: artifacts\evaluation
+2025-05-28 22:43:11,084 - INFO - Loss: 0.1366 Acc: 0.9739
+2025-05-28 22:43:11,099 - ERROR - Object of type Tensor is not JSON serializable
+2025-05-28 22:43:11,100 - ERROR - STAGE: Evaluation Pipeline failed with the following exception:Object of type Tensor is not JSON serializable
