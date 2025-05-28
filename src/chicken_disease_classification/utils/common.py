@@ -9,7 +9,6 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
-import tensorflow as tf
 
 def one_hot_encode(image, label):
   """One-hot encodes the label."""

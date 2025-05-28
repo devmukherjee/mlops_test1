@@ -1,9 +1,8 @@
 from src.chicken_disease_classification.constants import CONFIG_FILE_PATH,PARAMS_FILE_PATH
 from src.chicken_disease_classification.config.configuration import ConfigurationManager
-from src.chicken_disease_classification.components.prepare_callbacks import PrepareCallbacks
 from src.chicken_disease_classification.components.training import Training
 from src.chicken_disease_classification import logger
-import tensorflow as tf
+
 
 STAGE_NAME= 'Final Model Training Pipeline'
 
@@ -14,17 +13,21 @@ class ModelTrainingPipeline():
         try:
             
             config_manager= ConfigurationManager(config_file_path= CONFIG_FILE_PATH,params_file_path=PARAMS_FILE_PATH)
-            prepare_callbacks_config= config_manager.get_prepare_callbacks_config()
-            prepare_callback_component= PrepareCallbacks(config= prepare_callbacks_config)
-            callback_list= prepare_callback_component.get_tb_ckpt_callbacks()
-
+            # prepare_callbacks_config= config_manager.get_prepare_callbacks_config()
+           
             training_config= config_manager.training_config()
             training_component= Training(config= training_config)
             training_component.get_base_model()
-            training_component.train_valid_generator()
-            training_component.train(
-                callback_list= callback_list
-            )
+            training_component.preprocess_data()
+            training_component.build_additional_parameters()
+            model= Training.train_model(model=training_component.model,
+                                dataloaders= training_component.image_dataloaders,
+                                criterion=training_component.criterion,
+                                optimiser=training_component.optimiser_conv,
+                                scheduler= training_component.exp_decay_lr_scheduler,
+                                dataset_sizes=training_component.dataset_sizes,
+                                num_epochs= training_component.config.params_epochs)
+            Training.save_model(training_component.config.trained_model_path,model= model)
 
         except Exception as e:
             raise e

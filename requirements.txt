@@ -1,12 +1,12 @@
 # Add your requirements here
-tensorflow
+torch
 pandas 
 dvc
 notebook
 numpy
 matplotlib
 seaborn
-python-box==6.0.2
+Box
 pyYAML
 tqdm
 ensure==1.0.2

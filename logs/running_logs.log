@@ -2309,3 +2309,204 @@ Traceback (most recent call last):
   File "f:\Installed\anaconda3\envs\mlops_env\lib\site-packages\keras\src\backend\tensorflow\core.py", line 158, in convert_to_numpy
     return np.array(x)
 NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-05-22 20:06:09,319 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:06:09,329 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:06:09,331 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:06:09,332 - INFO - created directory at: artifacts
+2025-05-22 20:06:09,332 - INFO - created directory at: artifacts/data_ingestion
+2025-05-22 20:06:09,657 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:06:09,657 - INFO - Logging has been set up successfully
+2025-05-22 20:06:09,657 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:06:09,659 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:06:09,659 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:06:09,659 - INFO - created directory at: artifacts
+2025-05-22 20:06:09,659 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-22 20:06:09,893 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:06:09,893 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:06:09,893 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:06:09,897 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:06:09,897 - INFO - created directory at: artifacts
+2025-05-22 20:06:09,898 - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+2025-05-22 20:06:09,899 - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+2025-05-22 20:06:09,899 - ERROR - name 'PrepareCallbacks' is not defined
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 35, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 17, in main
+    prepare_callback_component= PrepareCallbacks(config= prepare_callbacks_config)
+NameError: name 'PrepareCallbacks' is not defined
+2025-05-22 20:07:08,919 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:07:08,927 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:07:08,927 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:07:08,927 - INFO - created directory at: artifacts
+2025-05-22 20:07:08,929 - INFO - created directory at: artifacts/data_ingestion
+2025-05-22 20:07:08,929 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:07:08,929 - INFO - Logging has been set up successfully
+2025-05-22 20:07:08,929 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:07:08,932 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:07:08,933 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:07:08,934 - INFO - created directory at: artifacts
+2025-05-22 20:07:08,934 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-22 20:07:09,129 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:07:09,129 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:07:09,129 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:07:09,139 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:07:09,139 - INFO - created directory at: artifacts
+2025-05-22 20:07:09,139 - ERROR - "'ConfigBox' object has no attribute 'sourceurl'"
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'sourceURL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'sourceURL'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'sourceURL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'sourceURL'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'sourceurl'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'sourceurl'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'sourceurl'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 33, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 18, in main
+    training_config= config_manager.training_config()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\config\configuration.py", line 68, in training_config
+    os.path.basename(self.config.data_ingestion.sourceURL))
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'sourceurl'"
+2025-05-22 20:10:12,374 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:10:12,379 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:10:12,379 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:10:12,379 - INFO - created directory at: artifacts
+2025-05-22 20:10:12,379 - INFO - created directory at: artifacts/data_ingestion
+2025-05-22 20:10:12,379 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:10:12,379 - INFO - Logging has been set up successfully
+2025-05-22 20:10:12,379 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:10:12,385 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:10:12,385 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:10:12,386 - INFO - created directory at: artifacts
+2025-05-22 20:10:12,387 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-22 20:10:12,584 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:10:12,584 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:10:12,589 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:10:12,589 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:10:12,590 - INFO - created directory at: artifacts
+2025-05-22 20:10:12,590 - INFO - created directory at: artifacts\training
+2025-05-22 20:10:12,590 - ERROR - Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL torchvision.models.resnet.ResNet was not an allowed global by default. Please use `torch.serialization.add_safe_globals([torchvision.models.resnet.ResNet])` or the `torch.serialization.safe_globals([torchvision.models.resnet.ResNet])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+Traceback (most recent call last):
+  File "E:\Python Projects\Deep_learning\mlops_test1\main.py", line 33, in <module>
+    obj.main()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 33, in main
+    raise e
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\stage_03_training.py", line 20, in main
+    training_component.get_base_model()
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\components\training.py", line 20, in get_base_model
+    self.model= torch.load(
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\serialization.py", line 1524, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL torchvision.models.resnet.ResNet was not an allowed global by default. Please use `torch.serialization.add_safe_globals([torchvision.models.resnet.ResNet])` or the `torch.serialization.safe_globals([torchvision.models.resnet.ResNet])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-05-22 20:11:38,921 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:11:38,927 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:11:38,927 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:11:38,927 - INFO - created directory at: artifacts
+2025-05-22 20:11:38,929 - INFO - created directory at: artifacts/data_ingestion
+2025-05-22 20:11:38,929 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:11:38,929 - INFO - Logging has been set up successfully
+2025-05-22 20:11:38,929 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:11:38,929 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:11:38,929 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:11:38,929 - INFO - created directory at: artifacts
+2025-05-22 20:11:38,929 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-22 20:11:39,140 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:11:39,140 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-22 20:11:39,140 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-22 20:11:39,140 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-22 20:11:39,140 - INFO - created directory at: artifacts
+2025-05-22 20:11:39,146 - INFO - created directory at: artifacts\training
+2025-05-22 20:12:47,826 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:15:26,533 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:15:26,533 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 20:15:26,533 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 20:15:26,533 - INFO - created directory at: artifacts
+2025-05-28 20:15:26,533 - INFO - created directory at: artifacts/data_ingestion
+2025-05-28 20:15:26,542 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:15:26,542 - INFO - Logging has been set up successfully
+2025-05-28 20:15:26,543 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:15:26,543 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 20:15:26,543 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 20:15:26,543 - INFO - created directory at: artifacts
+2025-05-28 20:15:26,543 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-28 20:15:26,803 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:15:26,803 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:15:26,803 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 20:15:26,803 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 20:15:26,803 - INFO - created directory at: artifacts
+2025-05-28 20:15:26,803 - INFO - created directory at: artifacts\training
+2025-05-28 20:15:56,735 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:16:32,486 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:16:32,493 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 20:16:32,493 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 20:16:32,493 - INFO - created directory at: artifacts
+2025-05-28 20:16:32,493 - INFO - created directory at: artifacts/data_ingestion
+2025-05-28 20:16:32,803 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:16:32,803 - INFO - Logging has been set up successfully
+2025-05-28 20:16:32,803 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:16:32,803 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 20:16:32,803 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 20:16:32,803 - INFO - created directory at: artifacts
+2025-05-28 20:16:32,813 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-28 20:16:32,990 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:16:32,993 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-28 20:16:32,995 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-28 20:16:32,997 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-28 20:16:32,997 - INFO - created directory at: artifacts
+2025-05-28 20:16:32,999 - INFO - created directory at: artifacts\training
+2025-05-28 20:17:02,892 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<

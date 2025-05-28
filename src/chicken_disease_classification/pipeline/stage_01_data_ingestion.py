@@ -15,8 +15,9 @@ class DataIngestionPipeline:
             configuration_manager= ConfigurationManager(config_file_path= CONFIG_FILE_PATH, params_file_path= PARAMS_FILE_PATH)
             data_ingestion_config_entity= configuration_manager.get_data_ingestion_configuration()
             data_ingester_component= DataIngestion(config= data_ingestion_config_entity)
-            data_ingester_component.download_file()
-            data_ingester_component.extract_zip()
+            data_ingester_component.recursive_copy()
+            # data_ingester_component.download_file()
+            # data_ingester_component.extract_zip()
         except Exception as e:
             logger.error("Data Ingestion Setup failed with Exception: {e}")
             raise e

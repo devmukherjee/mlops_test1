@@ -5,7 +5,8 @@ from src.chicken_disease_classification import logger
 from src.chicken_disease_classification.utils.common import get_size
 from src.chicken_disease_classification.entity.config_entity import DataIngestionConfig
 from pathlib import Path
-
+import shutil
+import os
 class DataIngestion:
     def __init__(self,config: DataIngestionConfig):
         self.config= config
@@ -22,6 +23,29 @@ class DataIngestion:
                 logger.error(f"filename: {filename} download failed with Exception {e}")
         else:
              logger.info(f"filename {self.config.local_data_file} already exists with size: {get_size(Path(self.config.local_data_file))}")
+
+    def recursive_copy(self):
+        source_dir= self.config.source_URL
+        destination_dir= os.path.join(self.config.unzip_dir,os.path.basename(source_dir))
+        if not os.path.isdir(source_dir):
+            print(f"Error: Source directory '{source_dir}' does not exist or is not a directory.")
+            return
+
+        if os.path.exists(destination_dir):
+            print(f"Warning: Destination directory '{destination_dir}' already exists. "
+                "Existing files might be overwritten.")
+            # If you want to delete the destination before copying, uncomment the next line:
+            # shutil.rmtree(destination_dir)
+        
+        try:
+            shutil.copytree(source_dir, destination_dir)
+            print(f"Successfully copied contents from '{source_dir}' to '{destination_dir}'.")
+        except shutil.Error as e:
+            print(f"Error copying directory: {e}")
+        except OSError as e:
+            print(f"OS error: {e}")
+
+
 
     def extract_zip(self):
         """

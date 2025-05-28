@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: chicken_disease_classification
+Version: 0.0.1
+Summary: A small python package for chicken disease classification
+Home-page: github.com/devmukherjee/mlops_test1
+Author: Dev Mukherjee
+Author-email: devmukherjeeindia@gmail.com
+Project-URL: Bug Tracker, github.com/devmukherjee/mlops_test1/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+
+## Workflows
+
+1. Update config.yaml
+2. Update secrets.yaml [Optional]
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the dvc.yaml
+
