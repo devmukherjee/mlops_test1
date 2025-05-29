@@ -2,6 +2,8 @@ from src.chicken_disease_classification import logger
 from src.chicken_disease_classification.pipeline.stage_01_data_ingestion import DataIngestionPipeline
 from src.chicken_disease_classification.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.chicken_disease_classification.pipeline.stage_03_training import ModelTrainingPipeline
+from src.chicken_disease_classification.pipeline.stage_04_model_evalaution import ModelEvaluationPipeline
+
 STAGE_NAME= "01 Data Ingestion Stage"
 try:
     pass
@@ -34,4 +36,14 @@ try:
     logger.info(f"*************** Stage: {STAGE_NAME} completed <<<<<<<<<<<<<<<<<<<<<<<<<<")
 except Exception as e:
     logger.exception(e)
+    raise e
+
+STAGE_NAME= "Evaluation Pipeline"
+try:
+    logger.info(f">>>>>>>>>>>>>>>>>>>>>STAGE {STAGE_NAME} Started <<<<<<<<<<<<<<<<<<<<<<<<")
+    eval_pipeline=ModelEvaluationPipeline()
+    eval_pipeline.main()
+    logger.info(f">>>>>>>>>>>>>>>>>>>>>STAGE {STAGE_NAME} Completed <<<<<<<<<<<<<<<<<<<<<<<<")
+except Exception as e:
+    logger.error(f'STAGE: {STAGE_NAME} failed with the following exception:{e}')
     raise e

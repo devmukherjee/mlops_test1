@@ -5,7 +5,8 @@ from pathlib import Path
 from src.chicken_disease_classification.entity.config_entity import (DataIngestionConfig,
                                                                      PrepareBaseModelConfig,
                                                                      PrepareCallbacksConfig,
-                                                                     TrainingConfig)
+                                                                     TrainingConfig,
+                                                                     ModelEvaluationConfig)
 from ensure import ensure_annotations
 import os
 
@@ -81,3 +82,18 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+    def get_model_evaluation_config(self)-> ModelEvaluationConfig :
+        config= self.config
+        params= self.params
+        training_data= os.path.join(self.config.data_ingestion.unzip_dir,
+                                    os.path.basename(self.config.data_ingestion.source_URL))
+        create_directories([Path(config.evaluation.root_directory)])
+        
+        return ModelEvaluationConfig(path_of_model= Path(config.training.model_file_path)
+                                     ,training_data= Path(training_data)
+                                     ,all_params= params 
+                                     ,params_image_size=params.IMAGE_SIZE
+                                     ,params_batch_size=params.BATCH_SIZE
+                                     ,metrics_file_path= Path(config.evaluation.metrics_file_path)                                     
+                                     )

@@ -2601,3 +2601,38 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-05-28 22:45:43,770 - INFO - Loss: 0.1366 Acc: 0.9739
 2025-05-28 22:45:43,770 - INFO - json file saved at: artifacts\evaluation\scores.json
 2025-05-28 22:45:43,770 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:18:17,356 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:18:17,363 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-29 21:18:17,366 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-29 21:18:17,367 - INFO - created directory at: artifacts
+2025-05-29 21:18:17,368 - INFO - created directory at: artifacts\evaluation
+2025-05-29 21:18:20,072 - INFO - Loss: 0.1366 Acc: 0.9739
+2025-05-29 21:18:20,080 - INFO - json file saved at: artifacts\evaluation\scores.json
+2025-05-29 21:18:20,080 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:11,635 - INFO - *************** Stage: 01 Data Ingestion Stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:11,644 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-29 21:19:11,644 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-29 21:19:11,644 - INFO - created directory at: artifacts
+2025-05-29 21:19:11,644 - INFO - created directory at: artifacts/data_ingestion
+2025-05-29 21:19:11,994 - INFO - *************** Stage: 01 Data Ingestion Stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:11,994 - INFO - Logging has been set up successfully
+2025-05-29 21:19:11,994 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:12,001 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-29 21:19:12,001 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-29 21:19:12,001 - INFO - created directory at: artifacts
+2025-05-29 21:19:12,001 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-29 21:19:12,271 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:12,271 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:12,278 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-29 21:19:12,279 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-29 21:19:12,279 - INFO - created directory at: artifacts
+2025-05-29 21:19:12,279 - INFO - created directory at: artifacts\training
+2025-05-29 21:19:46,416 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:46,417 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 21:19:46,417 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-29 21:19:46,417 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-29 21:19:46,417 - INFO - created directory at: artifacts
+2025-05-29 21:19:46,417 - INFO - created directory at: artifacts\evaluation
+2025-05-29 21:19:49,044 - INFO - Loss: 0.1392 Acc: 0.9673
+2025-05-29 21:19:49,044 - INFO - json file saved at: artifacts\evaluation\scores.json
+2025-05-29 21:19:49,047 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
