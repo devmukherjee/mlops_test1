@@ -2636,3 +2636,65 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-05-29 21:19:49,044 - INFO - Loss: 0.1392 Acc: 0.9673
 2025-05-29 21:19:49,044 - INFO - json file saved at: artifacts\evaluation\scores.json
 2025-05-29 21:19:49,047 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:23:27,091 - INFO - *************** Stage: 01 data ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:23:27,095 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:23:27,098 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:23:27,099 - INFO - created directory at: artifacts
+2025-05-30 21:23:27,100 - INFO - created directory at: artifacts/data_ingestion
+2025-05-30 21:23:27,465 - INFO - *************** Stage: 01 data ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:24:25,955 - INFO - *************** Stage: 01 data ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:24:25,955 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:24:25,955 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:24:25,955 - INFO - created directory at: artifacts
+2025-05-30 21:24:25,955 - INFO - created directory at: artifacts/data_ingestion
+2025-05-30 21:24:25,964 - INFO - *************** Stage: 01 data ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:25:33,195 - INFO - *************** Stage: 01 data ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:25:33,195 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:25:33,204 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:25:33,204 - INFO - created directory at: artifacts
+2025-05-30 21:25:33,205 - INFO - created directory at: artifacts/data_ingestion
+2025-05-30 21:25:33,435 - INFO - *************** Stage: 01 data ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:26:18,005 - INFO - *************** Stage: 01 data ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:26:18,005 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:26:18,005 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:26:18,005 - INFO - created directory at: artifacts
+2025-05-30 21:26:18,005 - INFO - created directory at: artifacts/data_ingestion
+2025-05-30 21:26:18,233 - INFO - *************** Stage: 01 data ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:27:47,605 - INFO - *************** Stage: 01 data ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:27:47,609 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:27:47,609 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:27:47,611 - INFO - created directory at: artifacts
+2025-05-30 21:27:47,612 - INFO - created directory at: artifacts/data_ingestion
+2025-05-30 21:27:47,835 - INFO - *************** Stage: 01 data ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:27:56,630 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:27:56,635 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:27:56,635 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:27:56,635 - INFO - created directory at: artifacts
+2025-05-30 21:27:56,635 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-30 21:27:56,925 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:32:45,474 - INFO - *************** Stage: Prepare base model started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:32:45,476 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:32:45,478 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:32:45,478 - INFO - created directory at: artifacts
+2025-05-30 21:32:45,480 - INFO - created directory at: artifacts/prepare_base_model
+2025-05-30 21:32:45,694 - INFO - *************** Stage: Prepare base model completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:32:49,338 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:32:49,344 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:32:49,344 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:32:49,345 - INFO - created directory at: artifacts
+2025-05-30 21:32:49,345 - INFO - created directory at: artifacts\training
+2025-05-30 21:33:24,457 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:35:02,338 - INFO - *************** Stage: Final Model Training Pipeline started <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:35:02,341 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:35:02,343 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:35:02,343 - INFO - created directory at: artifacts
+2025-05-30 21:35:02,344 - INFO - created directory at: artifacts\training
+2025-05-30 21:35:37,346 - INFO - *************** Stage: Final Model Training Pipeline completed <<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:35:41,191 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Started <<<<<<<<<<<<<<<<<<<<<<<<
+2025-05-30 21:35:41,191 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-05-30 21:35:41,191 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-05-30 21:35:41,191 - INFO - created directory at: artifacts
+2025-05-30 21:35:41,191 - INFO - created directory at: artifacts\evaluation
+2025-05-30 21:35:43,952 - INFO - Loss: 0.1509 Acc: 0.9542
+2025-05-30 21:35:43,952 - INFO - json file saved at: artifacts\evaluation\scores.json
+2025-05-30 21:35:43,952 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
