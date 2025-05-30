@@ -2,7 +2,7 @@ from src.chicken_disease_classification import logger
 from src.chicken_disease_classification.pipeline.stage_01_data_ingestion import DataIngestionPipeline
 from src.chicken_disease_classification.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.chicken_disease_classification.pipeline.stage_03_training import ModelTrainingPipeline
-from src.chicken_disease_classification.pipeline.stage_04_model_evalaution import ModelEvaluationPipeline
+from chicken_disease_classification.pipeline.stage_04_model_evaluation import ModelEvaluationPipeline
 
 STAGE_NAME= "01 Data Ingestion Stage"
 try:

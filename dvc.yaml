@@ -1,3 +1,51 @@
 stages:
-  stage_name:
-    cmd: python script.py
+  data_ingestion:
+    cmd: python src/chicken_disease_classification/pipeline/stage_01_data_ingestion.py
+    deps:
+      - src/chicken_disease_classification/pipeline/stage_01_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/hymenoptera_data
+
+  prepare_base_model:
+    cmd: python src/chicken_disease_classification/pipeline/stage_02_prepare_base_model.py
+    deps:
+      - src/chicken_disease_classification/pipeline/stage_02_prepare_base_model.py
+      - config/config.yaml
+    params:
+      - IMAGE_SIZE
+      - LEARNING_RATE
+      - INCLUDE_TOP
+      - WEIGHTS
+      - CLASSES
+    outs:
+      - artifacts/prepare_base_model/base_model.pth
+      - artifacts/prepare_base_model/updated_base_model.pth
+  
+  training:
+    cmd: python src/chicken_disease_classification/pipeline/stage_03_training.py
+    deps:
+      - src/chicken_disease_classification/pipeline/stage_03_training.py
+      - config/config.yaml
+      - artifacts/data_ingestion/hymenoptera_data
+      - artifacts/prepare_base_model
+    params:
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+      - IMAGE_SIZE
+    outs:
+      - artifacts/training/model.pth
+  
+  evaluation:
+    cmd: python src/chicken_disease_classification/pipeline/stage_04_model_evaluation.py
+    deps:
+      - src/chicken_disease_classification/pipeline/stage_04_model_evaluation.py
+      - config/config.yaml
+      - artifacts/data_ingestion/hymenoptera_data
+      - artifacts/training/model.pth
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+    outs:
+      - artifacts/evaluation/scores.json
