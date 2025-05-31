@@ -97,3 +97,5 @@ class ConfigurationManager:
                                      ,params_batch_size=params.BATCH_SIZE
                                      ,metrics_file_path= Path(config.evaluation.metrics_file_path)                                     
                                      )
+    
+    
