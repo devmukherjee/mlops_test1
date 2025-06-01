@@ -2698,3 +2698,103 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-05-30 21:35:43,952 - INFO - Loss: 0.1509 Acc: 0.9542
 2025-05-30 21:35:43,952 - INFO - json file saved at: artifacts\evaluation\scores.json
 2025-05-30 21:35:43,952 - INFO - >>>>>>>>>>>>>>>>>>>>>STAGE Evaluation Pipeline Completed <<<<<<<<<<<<<<<<<<<<<<<<
+2025-06-01 20:04:08,187 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-06-01 20:04:08,187 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-06-01 20:04:08,212 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.29.218:80
+2025-06-01 20:04:08,212 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-01 20:04:39,621 - INFO - 127.0.0.1 - - [01/Jun/2025 20:04:39] "GET / HTTP/1.1" 200 -
+2025-06-01 20:05:51,441 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "E:\Python Projects\Deep_learning\mlops_test1\app.py", line 36, in predictRoute
+    decodeImage(image, clApp.filename)
+AttributeError: 'clientApp' object has no attribute 'filename'
+2025-06-01 20:05:51,479 - INFO - 127.0.0.1 - - [01/Jun/2025 20:05:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-01 20:06:32,269 - INFO - 127.0.0.1 - - [01/Jun/2025 20:06:32] "GET / HTTP/1.1" 200 -
+2025-06-01 20:06:39,530 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "E:\Python Projects\Deep_learning\mlops_test1\app.py", line 36, in predictRoute
+    decodeImage(image, clApp.image_file)
+AttributeError: 'clientApp' object has no attribute 'filename'
+2025-06-01 20:06:39,540 - INFO - 127.0.0.1 - - [01/Jun/2025 20:06:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-01 20:07:55,706 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-06-01 20:07:55,706 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-06-01 20:07:55,717 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.29.218:80
+2025-06-01 20:07:55,720 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-01 20:08:06,449 - INFO - 127.0.0.1 - - [01/Jun/2025 20:08:06] "GET / HTTP/1.1" 200 -
+2025-06-01 20:08:32,076 - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "E:\Python Projects\Deep_learning\mlops_test1\app.py", line 37, in predictRoute
+    result = clApp.classifier.predict(clApp.image_file)
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\prediction.py", line 72, in predict
+    return self.prediction_component.predict(image)
+  File "E:\Python Projects\Deep_learning\mlops_test1\src\chicken_disease_classification\pipeline\prediction.py", line 35, in predict
+    output= model(preprocessed_image_tensor)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torchvision\models\resnet.py", line 285, in forward
+    return self._forward_impl(x)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torchvision\models\resnet.py", line 269, in _forward_impl
+    x = self.bn1(x)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\nn\modules\batchnorm.py", line 160, in forward
+    self._check_input_dim(input)
+  File "F:\Installed\anaconda3\envs\dl2\lib\site-packages\torch\nn\modules\batchnorm.py", line 452, in _check_input_dim
+    raise ValueError(f"expected 4D input (got {input.dim()}D input)")
+ValueError: expected 4D input (got 3D input)
+2025-06-01 20:08:32,093 - INFO - 127.0.0.1 - - [01/Jun/2025 20:08:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-01 20:22:02,786 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\config\config.yaml loaded successfully
+2025-06-01 20:22:02,786 - INFO - yaml file: E:\Python Projects\Deep_learning\mlops_test1\params.yaml loaded successfully
+2025-06-01 20:22:02,807 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.29.218:80
+2025-06-01 20:22:02,807 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-01 20:22:11,779 - INFO - 127.0.0.1 - - [01/Jun/2025 20:22:11] "GET / HTTP/1.1" 200 -
+2025-06-01 20:22:18,898 - INFO - 127.0.0.1 - - [01/Jun/2025 20:22:18] "POST /predict HTTP/1.1" 200 -

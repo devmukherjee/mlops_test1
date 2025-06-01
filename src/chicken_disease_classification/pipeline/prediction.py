@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from torchvision.io import decode_image
+from torch.nn import functional as F
 from torchvision.transforms.functional import resize
 from PIL import Image
 from src.chicken_disease_classification.constants import prediction_preprocessing_transform, CONFIG_FILE_PATH,PARAMS_FILE_PATH,class_names
@@ -32,11 +32,27 @@ class Prediction():
         preprocessed_image_tensor= self.prepocess_image(pil_image=image_pil)
         model= Prediction.load_model(model_path= self.config.final_model_path)
 
-        output= model(preprocessed_image_tensor)
-        _,prediction_class_index=torch.max(output,1)
-        
-        final_prediction= class_names[prediction_class_index]
-        return final_prediction
+        input_batch= preprocessed_image_tensor.unsqueeze(0)
+
+        # Set the model to evaluation mode
+        model.eval()
+
+        with torch.no_grad():
+
+            output= model(input_batch)
+             # Get probabilities
+        probabilities = F.softmax(output, dim=1)[0] # Apply softmax and get the probabilities for the first (and only) image in the batch
+
+        # Get the predicted class index
+        predicted_index = torch.argmax(probabilities).item()
+
+        # Get the predicted class name
+        predicted_class = class_names[predicted_index]
+
+        # Get the probability of the predicted class
+        predicted_probability = probabilities[predicted_index].item()
+
+        return predicted_class, predicted_probability
 
 
 
